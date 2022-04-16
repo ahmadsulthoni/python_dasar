@@ -20,3 +20,8 @@ print('data sekarang',tumpukan)
 from collections import deque
 antrean = deque([1,2,3,4,5])
 print('data sekarang',antrean)
+
+#mengurangi antrean
+out = antrean.popleft()
+print('data keluar',out)
+print('data sekarang',antrean)
