@@ -1,4 +1,4 @@
-#scope variable local
+# scope variable local
 
 '''
 namakucing = 'Casandra'
@@ -11,13 +11,15 @@ rubahnamakucing('ketie')
 print('nama kucing saya menjadi',namakucing)
 '''
 
-#scope variable global
+# scope variable global
 namakucing = 'Casandra'
 
-def rubahnamakucing (namabaru):
+
+def rubahnamakucing(namabaru):
     global namakucing
     namakucing = namabaru
-    print('saya rubah nama kucing menjadi',namakucing)
+    print('saya rubah nama kucing menjadi', namakucing)
+
 
 rubahnamakucing('ketie')
-print('nama kucing saya menjadi',namakucing)
+print('nama kucing saya menjadi', namakucing)

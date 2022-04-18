@@ -1,10 +1,10 @@
-#stack adalah penumpukan seperti bentuk buku jadi pengambilanya dari atas dulu (keluarnya di akhir)
-#queue antrian seperti antrian di kasir supermarket atau rumah sakit (keluar di akhir)
+# stack adalah penumpukan seperti bentuk buku jadi pengambilanya dari atas dulu (keluarnya di akhir)
+# queue antrian seperti antrian di kasir supermarket atau rumah sakit (keluar di akhir)
 
-tumpukan = [1,2,3,4,5,6]
-print('data sekarang',tumpukan)
+tumpukan = [1, 2, 3, 4, 5, 6]
+print('data sekarang', tumpukan)
 
-#memasukan data baru
+# memasukan data baru
 tumpukan.append(7)
 print('data masuk', 7)
 print('setelah di append ', tumpukan)
@@ -13,15 +13,16 @@ print('data masuk', 8)
 print('setelah di append ', tumpukan)
 
 out = tumpukan.pop()
-print('data keluar',out)
-print('data sekarang',tumpukan)
+print('data keluar', out)
+print('data sekarang', tumpukan)
 
-#Queue
+# Queue
 from collections import deque
-antrean = deque([1,2,3,4,5])
-print('data sekarang',antrean)
 
-#mengurangi antrean
+antrean = deque([1, 2, 3, 4, 5])
+print('data sekarang', antrean)
+
+# mengurangi antrean
 out = antrean.popleft()
-print('data keluar',out)
-print('data sekarang',antrean)
+print('data keluar', out)
+print('data sekarang', antrean)

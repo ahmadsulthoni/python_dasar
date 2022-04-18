@@ -1,4 +1,4 @@
-#fungsi dengan return value
+# fungsi dengan return value
 
 '''
 def kuadrat(argumen):
@@ -8,7 +8,7 @@ def kuadrat(argumen):
 a = kuadrat(4)
 print(a)
 '''
-#fungsi dengan return value dan multiple argumen
+# fungsi dengan return value dan multiple argumen
 
 '''
 def tambah(argumen1,argumen2):
@@ -19,9 +19,12 @@ a = tambah(4,6)
 print(a)
 '''
 
-def kali(argumen1,argumen2):
+
+def kali(argumen1, argumen2):
     total = argumen1 * argumen2
-    print(argumen1,'x',argumen2,'=',total)
+    print(argumen1, 'x', argumen2, '=', total)
     return total
-a = kali(4,6)
+
+
+a = kali(4, 6)
 print(a)

@@ -1,4 +1,4 @@
-#Fungsi dengan menggunakan argument sederhana
+# Fungsi dengan menggunakan argument sederhana
 
 '''
 def siswa(nama):
@@ -6,7 +6,7 @@ def siswa(nama):
 siswa('Joko')
 '''
 
-#Fungsi dengan menggunakan keyword dan argument
+# Fungsi dengan menggunakan keyword dan argument
 
 '''
 def guru(nama,pelajaran):
@@ -17,13 +17,15 @@ guru(pelajaran='Bahasa Inggris',nama='kusnadi')
 guru('Bahasa Jawa', 'Jarwo')
 '''
 
-#Fungsi dengan menggunakan default argument
 
-def penjagasekolah(nama,shift='siang',sifat='ramah'):
-    print('penjaga sekolah ini bernama',nama)
-    print('Shiftnya',shift)
-    print('Sifatnya',sifat)
+# Fungsi dengan menggunakan default argument
+
+def penjagasekolah(nama, shift='siang', sifat='ramah'):
+    print('penjaga sekolah ini bernama', nama)
+    print('Shiftnya', shift)
+    print('Sifatnya', sifat)
+
 
 penjagasekolah('kabul')
-penjagasekolah('maman',shift='malam',sifat='Galak')
-penjagasekolah(nama='parjo',shift='Pagi',sifat='pemarah')
+penjagasekolah('maman', shift='malam', sifat='Galak')
+penjagasekolah(nama='parjo', shift='Pagi', sifat='pemarah')

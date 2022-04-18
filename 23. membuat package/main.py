@@ -1,6 +1,5 @@
-from sains import tambah
 from sains import kecepatan
+from sains import tambah
 
-tambah(3,4)
-kecepatan(6,5)
-
+tambah(3, 4)
+kecepatan(6, 5)

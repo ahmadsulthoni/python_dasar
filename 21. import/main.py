@@ -1,3 +1,4 @@
 import modul
+
 print(modul.data)
-modul .cek_modul()
+modul.cek_modul()
