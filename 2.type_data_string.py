@@ -22,3 +22,13 @@ print(text8)
 print(5 * "wk")
 print(text1,text2)
 print(text1 + text2)
+
+text8 = "pisang goreng"
+a = text8[0]
+print(a)
+a = text8[0:5]
+print(a)
+a = text8[-5]
+print(a)
+a = text8[2:]
+print(a)
